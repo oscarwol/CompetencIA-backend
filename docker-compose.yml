@@ -1,9 +1,11 @@
+version: '3'
 services:
   app:
     build:
       context: ./app
     expose:
       - 7000
+
   nginx:
     build:
       context: ./nginx
@@ -11,9 +13,10 @@ services:
       - "80:80"
     depends_on:
       - app
+
   platform:
     image: php:apache
     volumes:
-      - ./frontend:/var/www/html
-    depends_on:
-      - app
+      - ./platform:/var/www/html
+    ports:
+      - "8080:80"
