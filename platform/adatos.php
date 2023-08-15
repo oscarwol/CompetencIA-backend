@@ -176,9 +176,6 @@ if (isset($_GET['actualizar'])) {
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="au theme template">
-    <meta name="author" content="Hau Nguyen">
-    <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
     <title>Inicio - CompetencIA</title>
@@ -228,7 +225,7 @@ if (isset($_GET['actualizar'])) {
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
-                            <a class="js-arrow" href="/CompetencIA">
+                            <a class="js-arrow" href="/">
                                 <i class="fas fa-tachometer-alt"></i>Inicio</a>
                         </li>
                         <li>
@@ -256,20 +253,20 @@ if (isset($_GET['actualizar'])) {
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li>
-                            <a class="js-arrow" href="/CompetencIA">
+                            <a class="js-arrow" href="/">
                                 <i class="fas fa-tachometer-alt"></i>Inicio</a>
 
                         </li>
                         <li>
-                            <a href="/CompetencIA/rdiario.php">
+                            <a href="/rdiario.php">
                                 <i class="fas fa-table"></i>Reporte Diario</a>
                         </li>
                         <li class="active">
-                            <a href="/CompetencIA/adatos.php">
+                            <a href="/adatos.php">
                                 <i class="fas fa-refresh"></i>Actualizar Datos</a>
                         </li>
                         <li>
-                            <a href="/CompetencIA/login.php">
+                            <a href="/login.php">
                                 <i class="fas fa-power-off"></i>Cerrar Sesión</a>
                         </li>
 
@@ -297,7 +294,7 @@ if (isset($_GET['actualizar'])) {
                             }
                             ?>
                             <div>
-                                <a href="/CompetencIA/adatos.php?actualizar">
+                                <a href="/adatos.php?actualizar">
                                     <button id="payment-button" class="btn btn-lg btn-dark btn-block">
                                         <i class="fas fa-refresh"></i>&nbsp;
                                         <span id="payment-button-amount">Actualizar datos</span>

@@ -5,9 +5,6 @@
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="au theme template">
-    <meta name="author" content="Hau Nguyen">
-    <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
     <title>Login</title>
@@ -61,7 +58,7 @@
                                     <label>Password</label>
                                     <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
                                 </div>
-                                <a href="/CompetencIA/index.php" style="display: block; ">
+                                <a href="/index.php" style="display: block; ">
                                     <input class="au-btn au-btn--block au-btn--blue m-b-20" value="Ingresar" style="background-color: black;text-align: center;">
                                 </a>
                                 <div class="social-login-content">

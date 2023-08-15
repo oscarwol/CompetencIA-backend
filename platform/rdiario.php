@@ -28,9 +28,6 @@ if (isset($_SESSION['ultima_act']) && isset($_SESSION['datos_marcas']) && isset(
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="au theme template">
-    <meta name="author" content="Hau Nguyen">
-    <meta name="keywords" content="au theme template">
     <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js "></script>
     <link href=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css " rel="stylesheet">
     <!-- Title Page-->
@@ -92,7 +89,7 @@ if (isset($_SESSION['ultima_act']) && isset($_SESSION['datos_marcas']) && isset(
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
-                            <a class="js-arrow" href="/CompetencIA">
+                            <a class="js-arrow" href="/">
                                 <i class="fas fa-tachometer-alt"></i>Inicio</a>
                         </li>
                         <li>
@@ -120,7 +117,7 @@ if (isset($_SESSION['ultima_act']) && isset($_SESSION['datos_marcas']) && isset(
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li>
-                            <a class="js-arrow" href="/CompetencIA">
+                            <a class="js-arrow" href="/">
                                 <i class="fas fa-tachometer-alt"></i>Inicio</a>
 
                         </li>
@@ -129,11 +126,11 @@ if (isset($_SESSION['ultima_act']) && isset($_SESSION['datos_marcas']) && isset(
                                 <i class="fas fa-table"></i>Reporte Diario</a>
                         </li>
                         <li>
-                            <a href="/CompetencIA/adatos.php">
+                            <a href="/adatos.php">
                                 <i class="fas fa-refresh"></i>Actualizar Datos</a>
                         </li>
                         <li>
-                            <a href="/CompetencIA/login.php">
+                            <a href="/login.php">
                                 <i class="fas fa-power-off"></i>Cerrar Sesión</a>
                         </li>
 
