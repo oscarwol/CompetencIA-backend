@@ -11,3 +11,9 @@ services:
       - "80:80"
     depends_on:
       - app
+  platform:
+    image: php:apache
+    volumes:
+      - ./frontend:/var/www/html
+    depends_on:
+      - app
